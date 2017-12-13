@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Base</title>
+	<meta charset= "utf-8">
+	<meta name="viewport" content="initial-scale=1"		>	
+</head>
+<body>
+<h1>Hoja de Vida</h1>
+<form action=""></form>
+		<svg width="20" height="20" >
+		 <g>
+		  <img src="images/logo.svg" height="100px" width="100px" />
+		 </g>
+		</svg>
+		
+	<form autocomplete="off" name="hoja de vida">
+		<fieldset>
+		<h2>Nombre:<br>
+		Mayra Soto Nieto</h2>
+		<h3>Lugar de nacimiento:<br>
+		chaparral,tolima</h3>
+		<h3>Fecha de nacimiento:<br>
+		26-11-1991</h3>
+		
+		<a href="index.html"> Inicio </a><br>
+		<a href="educacion.html"> educacion</a><br>
+		<a href="experiencia.html"> Experiencia</a><br>
+		
+		<h2>Experiencia</h2>
+		<h3>habilidades e intereses profesionales
+		<video controls poster="Habilidades" whidht="300px" height="300px">
+			<source src="videos/habilidades.mp4" type="video/mp4" />
+			<source src="videos/habilidades.wmv" type="video/wmv"/>
+	    </video>
+		</h3>
+		
+		<h3> Hobbies<br>
+		<audio controls>
+		<source id="player" src="videos/hobbies.m4a">
+		<source id="player" src="videos/hobbies.mp3">
+		<div>
+			<button onclick="document.getElementById('player').play()">Play</button>
+			<button onclick="document.getElementById('player').pause()">Pausa</button>
+			<button onclick="document.getElementById('player').load()">Stop</button>
+			<button onclick="document.getElementById('player').volume += .1">Subir volumen</button>
+			<button onclick="document.getElementById('player').volume -= .1">Bajar volumen</button>
+		</div> 
+		</audio>
+		</h3>
+	<footer>
+		Derechos Reservados<br>
+		<a href="https://twitter.com/alejaksoto"> <img src="images/twitter-logo.png" whidht="50px" height="50px" ></a>
+		<a href="https://www.facebook.com/alejandra.s.nieto.52"> <img src="images/facebook.png" whidht="50px" height="50px" ></a>
+		<h3> Direccion:<em>Calle 90a #94b - 47</em></h3>
+		<p>Contacto Correo: <a href="mailto:msoto@skitconsulting.com">
+		msoto@skitconsulting.com</a>.</p>
+		<h3>Telefono:<strong>3203677834</strong></h3>
+	</footer>
+</body>
+</html>
